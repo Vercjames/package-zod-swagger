@@ -1,0 +1,39 @@
+{
+  "name": "zod-swagger-nextjs-example",
+  "version": "1.0.0",
+  "description": "Next.js example using zod-swagger generated types",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "types:generate": "zod-swagger generate -i https://petstore.swagger.io/v2/swagger.json -o ./src/generated",
+    "types:watch": "zod-swagger generate -i https://petstore.swagger.io/v2/swagger.json -o ./src/generated --watch"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^3.22.4",
+    "axios": "^1.6.0",
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "14.0.0",
+    "typescript": "^5.2.0",
+    "zod-swagger": "file:../../packages/zod-swagger"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "openapi",
+    "swagger",
+    "zod",
+    "typescript"
+  ]
+} 
