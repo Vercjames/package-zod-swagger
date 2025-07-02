@@ -25,7 +25,6 @@ This monorepo contains:
 ### Packages
 
 - **`packages/zod-swagger`** - The main CLI tool and library
-- **`packages/config-eslint`** - Shared ESLint configurations
 - **`packages/config-typescript`** - Shared TypeScript configurations
 - **`packages/ui`** - Shared UI components
 
@@ -70,7 +69,7 @@ npm run types:generate
 - `npm run test:watch` - Run tests in watch mode
 - `npm run test:coverage` - Run tests with coverage
 - `npm run lint` - Lint all packages and applications
-- `npm run format` - Format all code
+
 - `npm run types:generate` - Generate types from Petstore API
 
 ## 📚 Documentation
@@ -99,12 +98,11 @@ npm run test:coverage
 ```
 ├── packages/
 │   ├── zod-swagger/          # Main CLI tool and library
-│   ├── config-eslint/        # Shared ESLint configs
 │   ├── config-typescript/    # Shared TypeScript configs
 │   └── ui/                   # Shared UI components
 ├── examples/
 │   ├── with-express/         # Express.js example
-│   └── with-nextjs/          # Next.js example
+│   └── with-nextjs/          # Next.js example (App Router)
 ├── apps/
 │   ├── docs/                 # Documentation site
 │   └── web/                  # Demo web app
@@ -122,9 +120,6 @@ This project uses [Turborepo](https://turbo.build/repo) for build orchestration.
 
 Shared TypeScript configurations are in `packages/config-typescript/`.
 
-### ESLint
-
-Shared ESLint configurations are in `packages/config-eslint/`.
 
 ## 🤝 Contributing
 

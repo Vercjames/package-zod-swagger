@@ -2,18 +2,13 @@
   "name": "zod-swagger",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "types:generate": "cd packages/zod-swagger && npm run generate"
+    "build": "turbo run build",
+    "types:generate": "turbo run types:generate",
+    "format": "turbo run format",
+    "lint": "turbo run lint"
   },
   "devDependencies": {
-    "prettier": "^3.6.0",
     "turbo": "^2.5.4",
     "typescript": "5.8.2",
     "jest": "^29.7.0",
@@ -23,6 +18,7 @@
   "engines": {
     "node": ">=20"
   },
+  "packageManager": "yarn@1.22.22",
   "workspaces": [
     "examples/*",
     "packages/*"

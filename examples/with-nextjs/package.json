@@ -7,9 +7,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "types:generate": "zod-swagger generate -i https://petstore.swagger.io/v2/swagger.json -o ./src/generated",
-    "types:watch": "zod-swagger generate -i https://petstore.swagger.io/v2/swagger.json -o ./src/generated --watch"
+    "types:generate": "zod-swagger generate -i https://petstore.swagger.io/v2/swagger.json -o ./generated",
+    "types:watch": "zod-swagger generate -i https://petstore.swagger.io/v2/swagger.json -o ./generated --watch",
+    "format": "next lint --fix",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.0.0",
@@ -26,14 +27,6 @@
     "eslint": "^8.50.0",
     "eslint-config-next": "14.0.0",
     "typescript": "^5.2.0",
-    "zod-swagger": "file:../../packages/zod-swagger"
-  },
-  "keywords": [
-    "nextjs",
-    "react",
-    "openapi",
-    "swagger",
-    "zod",
-    "typescript"
-  ]
-} 
+    "zod-swagger": "workspace:*"
+  }
+}

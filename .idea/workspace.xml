@@ -5,90 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0023348-4d2f-4459-b925-fc10be46ece0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/with-express/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/with-express/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/with-express/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/with-express/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/with-nextjs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/with-nextjs/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/with-nextjs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/with-nextjs/src/app/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/with-nextjs/src/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/with-nextjs/src/app/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/with-nextjs/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/zod-swagger/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/zod-swagger/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/zod-swagger/package/cli.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/zod-swagger/package/generator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/zod-swagger/package/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/zod-swagger/package/parser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/zod-swagger/package/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/zod-swagger/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/cli.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/generator.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/parser.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/setup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/fonts/GeistMonoVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/fonts/GeistVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/file-text.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/turborepo-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/turborepo-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/with-nextjs/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/fonts/GeistMonoVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/fonts/GeistVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/file-text.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/turborepo-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/turborepo-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/with-express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/with-express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/with-express/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/with-nextjs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/examples/with-nextjs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/with-nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/with-nextjs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/with-nextjs/src/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/with-nextjs/src/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/with-nextjs/src/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/with-nextjs/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/with-nextjs/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/with-nextjs/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/with-nextjs/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-eslint/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-eslint/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/next.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-eslint/next.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-eslint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/react-internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-eslint/react-internal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/typescript-config/base.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-typescript/base.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/typescript-config/nextjs.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-typescript/nextjs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/typescript-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-typescript/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/typescript-config/react-library.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-typescript/react-library.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/eslint.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/src/button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/src/card.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/src/code.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/turbo/generators/config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/turbo/generators/templates/component.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config-eslint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config-eslint/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config-eslint/next.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config-eslint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config-eslint/react-internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config-typescript/react-library.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/zod-swagger/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/zod-swagger/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/zod-swagger/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +47,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -134,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751481678260</updated>
-      <workItem from="1751481679414" duration="1148000" />
+      <workItem from="1751481679414" duration="1764000" />
     </task>
     <servers />
   </component>

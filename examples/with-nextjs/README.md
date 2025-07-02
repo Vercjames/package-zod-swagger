@@ -27,7 +27,7 @@ Generate TypeScript types, interfaces, and Zod schemas from the Petstore OpenAPI
 npm run types:generate
 ```
 
-This will create the following files in `src/generated/`:
+This will create the following files in `generated/`:
 - `types.ts` - TypeScript type definitions
 - `interfaces.ts` - TypeScript interfaces
 - `enums.ts` - TypeScript enums
@@ -190,17 +190,20 @@ npm run lint
 ## Project Structure
 
 ```
-src/
 ├── app/
 │   ├── globals.css          # Global styles with Tailwind
 │   ├── layout.tsx           # Root layout component
 │   └── page.tsx             # Main page component
-└── generated/               # Generated files (after running types:generate)
-    ├── api.ts              # Generated API client
-    ├── enums.ts            # Generated enums
-    ├── interfaces.ts       # Generated interfaces
-    ├── schemas.ts          # Generated Zod schemas
-    └── types.ts            # Generated TypeScript types
+├── generated/               # Generated files (after running types:generate)
+│   ├── api.ts              # Generated API client
+│   ├── enums.ts            # Generated enums
+│   ├── interfaces.ts       # Generated interfaces
+│   ├── schemas.ts          # Generated Zod schemas
+│   └── types.ts            # Generated TypeScript types
+├── package.json            # Dependencies and scripts
+├── tsconfig.json           # TypeScript configuration
+├── tailwind.config.js      # Tailwind CSS configuration
+└── next.config.js          # Next.js configuration
 ```
 
 ## Learn More

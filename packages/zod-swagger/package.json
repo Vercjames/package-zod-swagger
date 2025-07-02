@@ -9,10 +9,10 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
+    "types:generate": "node echo 'hello'",
     "generate": "node dist/package/cli.js",
     "test": "jest",
-    "lint": "eslint package --ext .ts",
-    "format": "prettier --write \"package/**/*.ts\""
+    "lint": "eslint package --ext .ts"
   },
   "keywords": [
     "openapi",
@@ -38,7 +38,6 @@
     "jest": "^29.7.0",
     "@types/jest": "^29.5.0",
     "eslint": "^8.50.0",
-    "prettier": "^3.0.0",
     "@types/js-yaml": "^4.0.5"
   },
   "files": [
